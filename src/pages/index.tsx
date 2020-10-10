@@ -1,9 +1,12 @@
-import * as React from 'react';
+import React from 'react';
+import TodoInsert from '../components/TodoInsert';
+import TodoList from '../components/TodoList';
 
 function Home() {
 	return (
 		<div>
-			<h1>Hello Next</h1>
+			<TodoInsert />
+			<TodoList />
 		</div>
 	);
 }
